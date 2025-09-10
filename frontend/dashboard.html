@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Project Management Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dashboard-body">
+  <div class="sidebar">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="#">Project A</a></li>
+      <li><a href="#">Project B</a></li>
+    </ul>
+    <button id="logoutBtn">Logout</button>
+  </div>
+  <div class="main-content">
+    <header>
+      <h1>Dashboard</h1>
+    </header>
+    <section class="board">
+      <div class="column">
+        <h3>To Do</h3>
+        <div class="task-card">Design UI mockups</div>
+        <div class="task-card">Set up database</div>
+      </div>
+      <div class="column">
+        <h3>In Progress</h3>
+        <div class="task-card">Backend API</div>
+      </div>
+      <div class="column">
+        <h3>Done</h3>
+        <div class="task-card">Project Setup</div>
+      </div>
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
